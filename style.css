@@ -1,31 +1,14 @@
-* {
+body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  }
-  
-  body {
-    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  }
-  
-  /* making my website responsive
+}
+
   @media(max-width:600px){
     body{font-size:12px;}
-  }  */
+  } 
   
-  
-  @media only screen and (max-width: 600px) {
-    body {
-      font-size:12px;
-    }
-  }
-  
-  /* @media(max-width:480px){
-    body{font-size:14px;}
-  }  */
-  
-  
-  
+
   header {
     background-color: white;
     border-bottom: 1px solid #ddd;
@@ -43,7 +26,10 @@
     width: 100%;
     background-color: #fff;
     z-index: 1000;
-    padding: 20px;
+    margin:0px;
+    padding: 0px;
+    padding-bottom: 20px;
+    padding-top: 20px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   }
   
@@ -84,16 +70,18 @@
     width: 100%;
     background-color: #701a1a;
   }
-  
+
   .reserve-btn {
     background-color: #4c0000;
     color: white;
     text-decoration: none;
     padding: 10px 10px;
+    margin-right: 20px;
     border-radius: 6px;
     font-weight: bold;
   }
   
+
   /* navbar styling end */ /* future- to add the hover effect on the lists  */
   
   .order-button {
@@ -110,16 +98,7 @@
   .order-button:hover {
     background-color: #5c1414; 
   }
-  
-  .reserve-btn {
-    background-color: #4c0000;
-    color: white;
-    text-decoration: none;
-    padding: 10px 10px;
-    border-radius: 6px;
-    font-weight: bold;
-  }
-  
+
   .home{
     text-align: center;
     background-image: url("https://prontorestaurant.co.ke/wp-content/uploads/2024/11/Arosto-with-Pilau-scaled-1-1024x683.jpg");
