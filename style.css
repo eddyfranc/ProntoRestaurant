@@ -9,6 +9,13 @@ body {
   } 
   
 
+  @media screen and (max-width: 600px) {
+    .navbar {
+      flex-direction: column; /* Stack navbar items vertically */
+      padding: 10px;
+      box-shadow: none; /* Remove shadow on mobile */
+    }
+}
   header {
     background-color: white;
     border-bottom: 1px solid #ddd;
