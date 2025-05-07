@@ -221,7 +221,7 @@ header {
     justify-content: center;
     gap: 20px;
     margin-top: 50px;
-    padding: 0 20px;
+    padding: 0 0px;
   }
   
   .item {
@@ -485,4 +485,9 @@ header {
   .footer-links-bottom a:hover {
     color: #dcdcdc;
   }
+  
+
+
+
+
   
